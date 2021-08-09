@@ -58,7 +58,6 @@ Bitte die Leistung (Power) maximal auf 90% einstellen. 90% Power erzielt das sel
 | ------------------------------------------------------------ | :----------: | :------------------------------------------: | ------------------------------------------------------------ |
 | **Kunststoffe:**                                             |              |                                              |                                                              |
 | Polyvinylchlorid                                             |     PVC      |                    Vinyl                     | erzeugt beim Schneiden/Gravieren Salzsäuredämpfe, chem. HCl  |
-| Polyoxymethylen-Copolymer                                    |    POM-C     |                                              | Es gibt auch ein POM-H welches mit dem Laser Cutter geschnitten werden darf |
 | Neopren (Chloropren-Kautschuk, auch Polychloropren oder Chlorbutadien-Kautschuk) |      CR      |                   Neopren                    | erzeugt beim Schneiden/Gravieren Salzsäuredämpfe, chem. HCl  |
 | Polyvinylbutyrale                                            |     PVB      |                                              |                                                              |
 | Aramide                                                      |  PPTA, PMPI  |              Kevlar, Nomex,...               | -> Cyanwasserstoff (Blausäure), chem. HCN                    |
