@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightBurnProject AppVersion="0.9.24" FormatVersion="0" MaterialHeight="0" MirrorX="True" MirrorY="True">
+    <Thumbnail Source="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EydOsHjxYurVq0fHjh3p1asXAJs3b8Zms5Gbm0ufPn1o3749UNncVVEUcnJyuPLKKzl8+DDLly9n7dq1jB49mrVr1xIdHc233357RmnNzc3llVdeQQjBzTffzGeffcbgwYMxmUxAZVXc/PnziYmJoaKiguDgYAYPHswHH3xAQkKC3n149OjRLF++nLy8PAICAmjTpg0bN26kS5cujBs3jgkTJnDgwAGgsoHR8uXLyc/P59VXX6VHjx5omsbYsWOxWCwoioLRaGT27NkMHTr0/H450iXlkiwDOHr0KIqikJ2dzdy5c3E4HLRs2ZLY2FhUVSUwMJD27dvr7ewVRcHtdpOens4vv/zCTz/9xOrVqwkJCaGiooI9e/bwyy+/8P3337Njxw7MZjMBAQHceeedLFmyRG/munz5cvbs2cP69evPOK1FRUX06dOH6667jiuuuAJAbxbbtm1b5s2bR2BgoF7P36dPH2bPno3JZNJ7OUJlwMrJycHj8VBaWsqPP/5ISUkJK1asYMyYMezfvx+3243b7WbOnDlkZ2dTUVHBmDFj+PLLL1FVlWnTpuF2u6moqMDpdDJs2LDz/M1Il5pLMgDMmzePcePG6XPCHT16lLS0NDIyMigsLGTZsmU8+eSTKIqCyWTitttuo6SkhO3bt7N48WK++eYbvX17cXExmzZtYvHixSxfvlyfVupkVU1ffT4fDz/8MM8999wZp7Vp06Z8++239O7dmyeffBKfz8fEiRNRVVUfGKPq4tc0jby8POC/7eUDAgIQQpCSkgLA+PHj9XUPPPAAUFltZrPZcDgcpKam4vF4uO222/Q0f/PNN3g8Htxutx4QfT4fYWFh+vEk/3RJBoBOnToxY8YM7r77bj744ANMJhNut5uVK1dit9vp1KkTAwYMoE2bNqxatYqEhASio6N5/PHHSUtLIy0tTZ+lpWHDhrz88sukpaWxe/duduzYccrx3nrrLX2UoKeffpr77rvvrNL77bff8vTTT3P48GHGjRtH//79q81TV9W1turvqt52FosFQO+MZLFYuOmmm6hfvz7169fntttuIyIiglatWmG32+nVqxdDhgwhPDycG2+8kZYtW6IoCmvWrOGaa65h8uTJwH/r2fPz8/nmm2/O7UuQ6oRLsgygaiCOd955h3nz5nHixAlUVcVqteJwOOjcuTNTpkzRt//tt98o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"/>
+    <VariableText>
+        <Start Value="0"/>
+        <End Value="999"/>
+        <Current Value="0"/>
+        <Increment Value="1"/>
+        <AutoAdvance Value="0"/>
+    </VariableText>
+    <UIPrefs>
+        <Optimize_ByLayer Value="1"/>
+        <Optimize_ByGroup Value="-1"/>
+        <Optimize_ByPriority Value="0"/>
+        <Optimize_WhichDirection Value="0"/>
+        <Optimize_InnerToOuter Value="1"/>
+        <Optimize_ByDirection Value="0"/>
+        <Optimize_ReduceTravel Value="1"/>
+        <Optimize_HideBacklash Value="0"/>
+        <Optimize_ReduceDirChanges Value="0"/>
+        <Optimize_ChooseCorners Value="0"/>
+        <Optimize_AllowReverse Value="1"/>
+        <Optimize_RemoveOverlaps Value="0"/>
+        <Optimize_OptimalEntryPoint Value="1"/>
+    </UIPrefs>
+    <CutSetting type="Scan">
+        <index Value="0"/>
+        <name Value="Labels"/>
+        <minPower Value="30"/>
+        <maxPower Value="30"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="300"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="0"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="0"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting type="Cut">
+        <index Value="20"/>
+        <name Value="Outline"/>
+        <minPower Value="20"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="100"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="8"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.1"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+    </CutSetting>
+    <CutSetting_Img type="Image">
+        <index Value="1"/>
+        <name Value="Atkinson"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="1"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="atkinson"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="2"/>
+        <name Value="Dithering"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="2"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="dithered"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="3"/>
+        <name Value="Stucki"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="3"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="stucki"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="4"/>
+        <name Value="Jarvis"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="4"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="jarvis"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="5"/>
+        <name Value="Newsprint"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="5"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="newsprint"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="6"/>
+        <name Value="grayscale"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="6"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="50"/>
+        <halftoneAngle Value="22.5"/>
+        <ditherMode Value="grayscale"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <CutSetting_Img type="Image">
+        <index Value="7"/>
+        <name Value="halbton"/>
+        <minPower Value="8"/>
+        <maxPower Value="20"/>
+        <minPower2 Value="20"/>
+        <maxPower2 Value="20"/>
+        <speed Value="200"/>
+        <kerf Value="0"/>
+        <zOffset Value="0"/>
+        <enableLaser1 Value="1"/>
+        <enableLaser2 Value="0"/>
+        <startDelay Value="0"/>
+        <endDelay Value="0"/>
+        <throughPower Value="0"/>
+        <throughPower2 Value="0"/>
+        <enableCutThroughStart Value="0"/>
+        <enableCutThroughEnd Value="0"/>
+        <priority Value="7"/>
+        <frequency Value="20000"/>
+        <overrideFrequency Value="0"/>
+        <PPI Value="200"/>
+        <enablePPI Value="0"/>
+        <doOutput Value="1"/>
+        <hide Value="0"/>
+        <runBlower Value="1"/>
+        <autoBlower Value="0"/>
+        <blowerSpeedOverride Value="0"/>
+        <blowerSpeedPercent Value="100"/>
+        <overcut Value="0"/>
+        <rampLength Value="0"/>
+        <rampOuter Value="0"/>
+        <forceConstantPower Value="0"/>
+        <numPasses Value="1"/>
+        <zPerPass Value="0"/>
+        <perforate Value="0"/>
+        <perfLen Value="0.1"/>
+        <perfSkip Value="0.1"/>
+        <dotMode Value="0"/>
+        <dotTime Value="1"/>
+        <dotSpacing Value="0.01"/>
+        <tabsEnabled Value="0"/>
+        <manualTabs Value="1"/>
+        <tabSize Value="0.5"/>
+        <tabCount Value="1"/>
+        <tabSpacing Value="50"/>
+        <skipInnerTabs Value="0"/>
+        <tabsUseSpacing Value="1"/>
+        <tabCutPower Value="0"/>
+        <scanOpt Value="mergeAll"/>
+        <bidir Value="1"/>
+        <crossHatch Value="0"/>
+        <overscan Value="1"/>
+        <overscanPercent Value="2.5"/>
+        <floodFill Value="0"/>
+        <interval Value="0.2"/>
+        <angle Value="0"/>
+        <cellsPerInch Value="60"/>
+        <halftoneAngle Value="25"/>
+        <negative Value="1"/>
+        <ditherMode Value="halftone"/>
+        <dpi Value="127"/>
+        <linkDPItoInterval Value="1"/>
+    </CutSetting_Img>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Mode" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 680.237 234.446</XForm>
+    </Shape>
+    <Shape Type="Rect" CutIndex="20" CutOrder="999" W="150.00005" H="200.02226" Cr="0">
+        <XForm>1 0 0 1 725 330.011</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="LENS:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>1 0 0 1 764.388 404.487</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="FOCUS:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>0.99998 0 0 0.999989 764.477 414.489</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="RASTER:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>1 0 0 1 689.388 404.487</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="MATERIAL:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>1 0 0 1 749.388 424.783</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="TAPE:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>1 0 0 1 689.498 413.839</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="63 mm" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 755.263 404.453</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="5 mm&#10;" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 755.291 417.428</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Pappel Sperrholz  5 mm" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 740.54 423.835</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="0.2 mm" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 680.291 404.455</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="NO" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 680.533 414.489</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="6" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 347.5</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="5" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 327.5</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="3" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 287.5</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="4" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 307.5</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="1" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 247.5</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="2" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.039375 745 267.5</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Stucki" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 670.917 289.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="POWER:" H="7" LS="0" LnS="-25" Ah="2" Av="1" Weld="0">
+        <XForm>1 0 0 1 764.152 384.487</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Min: 8%  Max: 20%" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 754.602 384.453</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Dithering" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 669.932 269.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Atkinson" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 669.927 249.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Newprint" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 669.93 329.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Jarvis" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 669.927 309.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Grayscale" H="7" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 669.927 349.438</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="200 mm/s" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 755.762 394.487</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="SPEED:" H="7" LS="0" LnS="-25" Ah="0" Av="1" Weld="0">
+        <XForm>1 0 0 1 790.06 394.487</XForm>
+    </Shape>
+    <Shape Type="Bitmap" CutIndex="7" W="677.24866" H="380.95239" Gamma="1" Contrast="0" Brightness="0" EnhanceAmount="0" EnhanceRadius="0" EnhanceDenoise="0" File="/Users/Dirk 1/KAYnUrt.png" Data="iVBORw0KGgoAAAANSUhEUgAAB4AAAAQ4CAAAAADNuJ6fAAAACXBIWXMAAAsTAAALEwEAmpwYAAARQUlEQVR4nO3XS24TQRRAUZv9sP+FsCAYREIxpOvnFnfAOVLcXa+erGR0lefjTT8ej5+Pj5/fLy+H5Zfp6Wo0nO9s/Plxcr1x3n+9GAzHmysvn6dLs9H0sDm797Fzecfx6rm4dvk8X9gYLNyc7Z4uDUdvrC28Xr6/Hoan/fPa5Ho6uli4XV053v4XX9T5Vv8CAPA/EmAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEnvUv8L7b/oS9L1rYHq9c3n598fd0Ptk7D07P+fvsdfh2vjYanS2tfM98d30wvVhemDzP1m44blze8jiazQ47o8OlT5/nK6PB9uvS+Xq4fP3Fx/nGdHRxWn35fPj+eJP/gAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAICDAABAQYAAICDAABAQaAgAADQECAASAgwAAQEGAACAgwAAQEGAACAgwAAQEGgIAAA0BAgAEgIMAAEBBgAAgIMAAEBBgAAgIMAAEBBoCAAANAQIABICDAABAQYAAI/AJtL9xvb8vy7wAAAABJRU5ErkJggg==">
+        <XForm>0.147656 0 0 0.0393751 745 368</XForm>
+    </Shape>
+    <Shape Type="Text" CutIndex="0" Font="Arial,-1,100,5,50,0,0,0,0,0" Str="Halbton&#10;60Zellen/Zoll" H="7.0000191" LS="0" LnS="-25" Ah="1" Av="1" Weld="0">
+        <XForm>1 0 0 1 672.886 369.445</XForm>
+    </Shape>
+    <Notes ShowOnLoad="0" Notes="Generated at https://o2creative.co.nz/laser/"/>
+</LightBurnProject>
