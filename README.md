@@ -2,6 +2,12 @@
 - [Hilfreiche Software bzw. Online Resources](#hilfreiche-software-bzw-online-resources)
 - [Material](#material)
 
+#Hilfreiche Software und Online Resourcen
+Zum Erstellen der Pfade für den Laser bieten sich alle Vektorprogramme an, wie zum Beispiel [Inkscape](https://inkscape.org/), [Adobe Illustrator](https://www.adobe.com/products/illustrator/) oder [Affinity Designer](https://affinity.serif.com/en-us/designer/)
+
+Der Laser selbst wird mit einem Notebook und der Software [Lightburn](https://lightburnsoftware.com/) betrieben. Um sich mit der Software vertraut zu machen gibt es auf der Lightburn Seite einige [Tutorials](https://lightburnsoftware.com/pages/tutorials), darüber hinaus kann die Software in einer Testversion ausprobiert werden.
+
+
 # Material
 Eine kurze Tabelle mit Materialien die gelasert werden können:
 
