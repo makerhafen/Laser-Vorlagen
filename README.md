@@ -26,5 +26,5 @@ Eine kurze Tabelle mit Materialien die gelasert werden können:
 | Polypropylen  | :heavy_check_mark: | :heavy_check_mark: |
 | Polystyrol  | :heavy_check_mark: | :heavy_check_mark: |
 
-
+:no_entry: **Wichtige Information zu PVC und PVC-haltigen Kunststoffen:** Diese Kunststoffe können nicht verarbeitet werden da beim Lasern giftige Gase entstehen. Niemals lasern! :no_entry:
 
